@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { UserContextProvider } from "./context/UserContext.jsx";
 import { NameProvider } from "./context/NameContext.jsx";
 import { DataContextProvider } from "./context/DataContext.jsx";
-export const server = "http://localhost:4000";
+export const server = "https://cuv-sparck-backend.onrender.com";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <UserContextProvider>
