@@ -9,7 +9,7 @@ import Appearance from "./pages/Appearance";
 import Settings from "./pages/Settings";
 import Analytics from "./pages/Analytics";
 import Sidebar from "./components/Sidebar"; 
-import Showname from "./components/showname";
+// import Showname from "./components/showname";
 
 const AppLayout = () => {
   const location = useLocation();
