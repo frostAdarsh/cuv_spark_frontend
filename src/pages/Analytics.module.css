@@ -1,0 +1,25 @@
+.contianer {
+    background-color: #fafafa;
+    height: 100vh;
+  }
+  
+  .boxone {
+    font-family: "Poppins", serif;
+    padding: 2rem;
+  }
+  
+  .boxoneone {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .boxoneone h1 {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .boxoneonetwo {
+    color: #383838;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  

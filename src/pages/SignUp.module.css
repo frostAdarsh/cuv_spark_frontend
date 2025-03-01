@@ -1,0 +1,124 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Poppins", serif;
+}
+
+.container img {
+  height: 100vh;
+  width: 35vw;
+}
+
+.formbox {
+  height: 100vh;
+  width: 65vw;
+  padding: 2rem;
+}
+
+.formbox img {
+  width: 8rem;
+  height: 2.3rem;
+}
+
+.formboxone {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.formboxdes {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+}
+
+.formboxdata {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+  
+  gap: 2rem;
+  font-family: "Poppins", serif;
+}
+
+.formboxdatades {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.formboxdatalink {
+  color: #28a263;
+  font-weight: 300;
+  font-size: small;
+}
+
+.formboxbody {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.formboxbody p{
+    font-size: smaller;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+}
+.mdata {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.3rem;
+}
+
+.mdata label {
+  color: #666666;
+  font-size: small;
+}
+.mdata input {
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid;
+  color: #666666;
+  outline: none;
+  background-color: white;
+}
+
+.ck{
+  margin-top: 1rem;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-size: smaller;
+  color: #3D3D3D;
+
+}
+.ck span{
+  text-decoration: underline;
+  font-weight: 400;
+  color: #181818;
+}
+
+.signupbtn {
+  background-color: rgb(169, 164, 164);
+  color: white;
+  font-weight: 400;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-family: "Poppins", serif;
+  font-size: medium;
+}
+p{
+  font-size: 0.5rem;
+}
+.goggle{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    color: #676B5F;
+}
+
+.goggle span{
+  text-decoration: underline;
+}

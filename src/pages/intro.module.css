@@ -1,0 +1,116 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Poppins", serif;
+}
+
+.container img {
+  height: 100vh;
+  width: 35vw;
+}
+
+.formbox {
+  height: 100vh;
+  width: 65vw;
+  padding: 2rem;
+}
+
+.formbox img {
+  width: 8rem;
+  height: 2.3rem;
+}
+
+.boxone {
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem 6rem;
+}
+
+.boxoneheading {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Inter", serif;
+}
+
+.boxoneheading1 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Inter", serif;
+  margin-top: 1.5rem;
+  color: #676b5f;
+}
+
+.formstyle {
+  display: flex;
+  flex-direction: column;
+}
+
+.formstyle input {
+  background-color: #f6f7f5;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.7rem;
+  color: #000000;
+  outline: none;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.formstyle button {
+  background-color: #28a263;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  padding: 0.9rem;
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: medium;
+  cursor: pointer;
+  margin-top: 1.6rem;
+}
+
+.boxtwo {
+  margin-top: 3rem;
+}
+
+.boxtwoheadind {
+  font-weight: 800;
+  font-family: "Inter", serif;
+}
+
+.boxtwoca {
+  display: flex;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.boxtwocasty {
+  display: flex;
+  gap: 0.9rem;
+  border: 1px solid #e0e2d9;
+  border-radius: 2rem;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-family: "Inter", serif;
+}
+.boxtwoca img {
+  height: 15px;
+  width: 15px;
+}
+
+.boxtwocapa {
+  font-weight: 400;
+  font-size: medium;
+}
+
+
+.active {
+  background-color: #28a263;
+  border: 1px solid black;
+  color: white;
+}

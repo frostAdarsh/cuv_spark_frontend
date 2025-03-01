@@ -1,0 +1,76 @@
+.contianer {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.boxone {
+  font-family: "Poppins", serif;
+  padding: 2rem;
+}
+
+.boxoneone {
+  display: flex;
+  gap: 0.5rem;
+}
+.boxoneone h1 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.boxoneonetwo {
+  color: #383838;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.formone {
+  padding: 2rem;
+  border: 1px solid #737373;
+  margin: 2rem 5rem 0rem 2rem;
+  border-radius: 1rem;
+  background-color: white;
+  outline: none;
+  font-family: "Poppins", serif;
+}
+
+.ep{
+  color: #29A263;
+  font-weight: 500;
+  font-size: small;
+  margin-bottom: 0.7rem;
+  text-underline-offset: 1rem;
+  text-decoration: underline #29A263;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.7rem;
+  color: #5E5E5E;
+  font-size: small;
+  font-weight: 400;
+}
+
+.inputGroup input{
+  height: 2rem;
+  width: 30vw;
+  border-radius: 0.4rem;
+  outline: none;
+  border: 1px solid #3E3E3E;
+  padding: 1rem;
+}
+
+.submitButton{
+  
+  background-color: #29A263;
+  color: white;
+  padding: 0.7rem;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 1rem;
+  width: 9rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 88%;
+}

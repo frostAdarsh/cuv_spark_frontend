@@ -1,0 +1,13 @@
+.container{
+    font-family: "Poppins", serif;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: white;
+    font-weight: 500;
+    width: 8rem;
+    cursor: pointer;
+} 
+
+

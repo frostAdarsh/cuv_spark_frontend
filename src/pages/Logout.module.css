@@ -1,0 +1,20 @@
+.container {
+    position: fixed; 
+    bottom: 20%;
+    left: 2%;
+    background-color: #F3F3F1;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    font-weight: 400;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: small;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }

@@ -1,0 +1,42 @@
+.container {
+    height: 100vh;
+    width: 15%;
+
+  }
+  
+  .boxone {
+    text-decoration: none;
+  }
+  
+  .boxtwo {
+    display: flex;
+    gap: 1rem;
+    padding: 1.3rem;
+    justify-content: start;
+    align-items: center;
+    font-family: "Poppins", serif;
+    color: #676767;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .container img {
+    width: 8rem;
+    height: 2.3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .active {
+    background-color: #fafafa;
+    color: #28A263;
+  }
+
+
+  .bntemailuse{
+    margin-top: 95%;
+    margin-left: 10%;
+  
+  }
+  
