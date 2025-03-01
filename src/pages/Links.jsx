@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useUser } from "../context/UserContext";
 import styles from "./Links.module.css";
-import Showname from "../components/showname";
+// import Showname from "../components/showname";
 import GetUpdateData from "../components/GetUpdateData";
 
 const Links = () => {
