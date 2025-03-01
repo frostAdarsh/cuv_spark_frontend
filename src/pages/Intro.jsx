@@ -1,6 +1,6 @@
 import  { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./Intro.module.css";
+import styles from "./intro.module.css";
 import toast from "react-hot-toast";
 import { useData } from "../context/DataContext";
 
